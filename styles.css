@@ -52,14 +52,14 @@ body {
     color: #fff;
 }
 
-/*.container-password{
+.container-password{
     max-width: 480px;
     margin: 14px 0;
     display: flex;
     align-items: center;
     flex-direction: column;
     cursor: pointer;
-}*/
+}
 
 .title {
     text-align: center;
@@ -70,8 +70,6 @@ body {
 }
 
 .password {
-    cursor: pointer;
-    max-width: 480px;
     height: 60px;
     background-color: rgba(0, 0, 0, 0.40);
     border-radius: 4px;
@@ -87,7 +85,7 @@ body {
     transform: scale(1.05);
 }
 
-.tooltip {
+/*.tooltip {
     color: #fff;
     position: relative;
     top: 20px;
@@ -99,7 +97,7 @@ body {
     visibility: hidden;
     opacity: 0;
     transition: all 0.5s ease-in-out
-}
+}*/
 
 .hide {
     display: none;
